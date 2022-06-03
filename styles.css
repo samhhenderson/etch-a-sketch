@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color:slategray;
+    flex-direction: column;
+    align-items: center;
+    font-family: "roboto";
+}
+
+h1 {
+    font-family: "sacramento";
+    color:gainsboro;
+    font-size: 48px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:crimson;
+    box-shadow: 0px 0px 16px black;
+    border-radius: 40px;
+}
+
+.playSpace {
+    flex-shrink: 0;
+    display: grid;
+    gap: 2px;
+    padding: 20px;
+    background-color:gainsboro;
+    box-shadow: 0px 0px 16px black;
+    border-radius: 20px;
+}

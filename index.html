@@ -11,15 +11,21 @@
 
   </head>
 
-  <body>
-    <h1>
-      Etch-A-Sketch!
-    </h1>
-    <div class="container">
+  <body draggable="false">
+    <div class="shadowContainer">
+      <div class="container">
+        <div class="title">
+          Sketch-And-Etch!
+        </div>
         <div class="playSpace">
-        </div>
-        <div class="settings"> "this is where settings go"
-        </div>
+          </div>
+          <div class="settings">
+              <div class="sliderContainer">
+                <input class="slider" type="range" min="4" max="100" value="4">
+              </div>
+              <div class="eraseContainer">ERASE</div>
+          </div>
+      </div>
     </div>
   </body>
 
